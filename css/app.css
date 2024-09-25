@@ -89,6 +89,49 @@ a{
 /* PLANS */
 
 
+/* PLANS-HEADER */
+.container-large{
+    max-width: 1025px;
+    margin: 0 auto;
+    height: 1490px  ;
+    
+}
+.row.plans-head{
+    display: flex;
+    height: 160px;
+}
+.check-box{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    gap: 45px;
+}
+.col.plans{
+
+    
+    margin-top: 160px;
+}
+.plans h2{
+    font-size:35px;
+}
+.row.plans-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+    gap: 30px;
+    
+}
+
+/* MAIN-PLANS */
+
+.col.main-plans{
+   width: 300px; 
+   height: 950px;
+}
+
+
+
 /* DEBUG */
 .debug{
     border: 1px solid black;
