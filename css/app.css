@@ -22,4 +22,36 @@ a{
 .row{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.container.navbar{
+    min-height: 80px;
+}
+
+/* HEADER */
+
+.col.category > *{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.btn.blue.navbar{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 15px;
+}
+
+/* DEBUG */
+.debug{
+    border: 1px solid black;
+}
+
+/* UTIL */
+.font-navbar{
+    font-size: 13px;
+}
+
+.btn{
+    border: solid 1px;
 }
