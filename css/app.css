@@ -141,24 +141,29 @@ a{
 }
 
 .professional{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     padding-top: 35px;
-    line-height: 40px;
+    
 }
 .professional h2{
     font-size: 24px;
 }
-.professional li:nth-child(2){
-    font-weight: bold;
-}
 
-.professional.feature{
-    padding-left: 20px;
+.professional li{
+    max-width: 240px;
 }
-.professional.caption{
-    padding-left: 20px;
+li.icon{
+    display: flex;
+    gap: 5px;
+    
 }
 .trial{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top:70px;
 }
 
 /* DEBUG */
@@ -167,6 +172,10 @@ a{
 }
 
 
+.border-trial{
+    border-bottom: 1px solid #E3E3E5;
+    padding-bottom: 45px;
+}
 
 
 
@@ -179,4 +188,13 @@ a{
 
 .btn{
     border: solid 1px rgba(0, 0, 0, 0);
+}
+.column-left-padding{
+    padding-left: 20px;
+}
+.check-icon{
+    color: #0061FF;
+}
+.bold{
+    font-weight: bold;
 }
