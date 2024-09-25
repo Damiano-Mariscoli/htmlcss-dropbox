@@ -165,7 +165,10 @@ li.icon{
     gap: 20px;
     padding-top:70px;
 }
-
+.buy-link{
+    text-decoration: underline;
+    color: blue;
+}
 /* DEBUG */
 .debug{
     border: 1px solid black;
