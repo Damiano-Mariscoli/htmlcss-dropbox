@@ -18,16 +18,16 @@ a{
 
 
 /* LAYOUT */
+.container{
+    margin: 0 auto;
+}
 
 .row{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px;
 }
-.container.navbar{
-    min-height: 80px;
-}
+
 
 /* HEADER */
 
@@ -35,6 +35,7 @@ a{
     display: flex;
     align-items: center;
     gap: 30px;
+    padding: 25px;
 }
 .btn.blue.navbar{
     background-color: #0061FF;
@@ -42,10 +43,54 @@ a{
     padding: 10px 15px;
 }
 
+.container.navbar{
+    min-height: 80px;
+}
+/* MAIN */
+.hero-bg{
+    background-color: #B4D0E7;
+}
+.container.hero{
+    min-height: 724px;
+    max-width: 1200px;
+}
+.col.hero{
+    font-size: 40px;
+    line-height: 80px;
+    padding-bottom: 60px;
+    padding-top: 90px;
+    width: 100%;
+}
+
+.col.hero-caption{
+    width: 400px;
+    height: 400px;
+    padding-right: 20px;
+
+}
+.col.hero-caption ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-img{
+    width: 100%;
+    max-width: 800px;
+    max-height: 450px;
+}
+
 /* DEBUG */
 .debug{
     border: 1px solid black;
 }
+
+
+
+
+
+
 
 /* UTIL */
 .font-navbar{
