@@ -105,7 +105,11 @@ a{
 	border: 1px solid;
 	min-height: 300px;
 }
-
+.card-header{
+    text-align: center;
+    border-bottom: 1px solid;
+    padding: 5px;
+}
 /* PLANS-HEADER */
 .container-large{
     max-width: 1025px;
@@ -141,7 +145,11 @@ a{
 }
 
 /* MAIN-PLANS */
-
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
 
 
 
