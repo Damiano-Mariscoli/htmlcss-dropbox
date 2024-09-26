@@ -31,6 +31,10 @@ a{
 .row.plans-main >* {
 	padding: 0px 25px;
 }
+.row.plans-main{
+    align-items: stretch;
+    flex-wrap: wrap;
+}
 .row.hero{
     
     flex-wrap: nowrap;
@@ -42,6 +46,8 @@ a{
 
 .col-4 {
 	width: calc(4 * 100% / 12);
+    display: flex;
+    flex-direction: column;
 }
 /* HEADER */
 
@@ -132,10 +138,7 @@ a{
     height: 1490px  ;
     
 }
-.row.plans-head{
-    display: flex;
-    height: 160px;
-}
+
 .check-box{
     display: flex;
     flex-direction: row;
@@ -154,8 +157,8 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 200px;
-    gap: 30px;
+    min-height: 150px;
+    padding: 0px 25px;
     
 }
 
@@ -163,8 +166,10 @@ a{
 .card{
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     gap: 45px;
     padding: 30px;
+    
     
 }
 li.icon{
