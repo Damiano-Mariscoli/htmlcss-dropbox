@@ -25,10 +25,24 @@ a{
 .row{
     display: flex;
     justify-content: space-between;
-   
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+.row.plans-main >* {
+	padding: 0px 25px;
+}
+.row.hero{
+    
+    flex-wrap: nowrap;
+
+}
+.col-12 {
+	width: 100%;
 }
 
-
+.col-4 {
+	width: calc(4 * 100% / 12);
+}
 /* HEADER */
 
 .col.category > *{
@@ -46,7 +60,7 @@ a{
 .container.navbar{
     min-height: 80px;
 }
-/* MAIN */
+
 
 
 
@@ -87,7 +101,10 @@ a{
 }
 
 /* PLANS */
-
+.plans .card {
+	border: 1px solid;
+	min-height: 300px;
+}
 
 /* PLANS-HEADER */
 .container-large{
@@ -125,50 +142,9 @@ a{
 
 /* MAIN-PLANS */
 
-.col.main-plans{
-   width: 300px; 
-   height: 950px;
-   
-}
 
-.single{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 45px;
-    width: 100%;
-    border-bottom: 1px solid black;
-}
 
-.professional{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 35px;
-    
-}
-.professional h2{
-    font-size: 24px;
-}
 
-.professional li{
-    max-width: 240px;
-}
-li.icon{
-    display: flex;
-    gap: 5px;
-    
-}
-.trial{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top:70px;
-}
-.buy-link{
-    text-decoration: underline;
-    color: blue;
-}
 /* DEBUG */
 .debug{
     border: 1px solid black;
