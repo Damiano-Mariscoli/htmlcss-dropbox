@@ -22,9 +22,10 @@ img{
 /* LAYOUT */
 .container{
     margin: 0 auto;
-    
 }
-
+.container-max-width{
+    width: 100%;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +46,7 @@ img{
 .col-8{
     width: calc(8 * 100% / 12);
 }
+
 
 /* HEADER */
 
@@ -103,15 +105,12 @@ img{
 }
 
 /* PLANS */
-.plans .card {
-	border: 1px solid;
-	
-}
+
 .card-header{
     text-align: center;
-    border-top:1px solid ;
-    border-left:1px solid ;
-    border-right:1px solid ;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
     padding: 5px;
 }
 .spacing{
@@ -140,8 +139,9 @@ img{
     font-size:35px;
 }
 .row.plans-head{
-    display: flex;
-    flex-wrap: wrap;
+    margin-top:150px ;
+    margin-bottom: 10px;
+    gap: 65px;
     
 
     
@@ -208,7 +208,14 @@ li.icon{
 .partner-caption{
     display: flex;
     flex-direction: column;
+    gap: 25px;
+}
 
+
+/* TEAM */
+.team{
+    display: flex;
+    flex-direction: column;
 }
 /* DEBUG */
 .debug{
@@ -258,4 +265,40 @@ li.icon{
 }
 .row.plans-main:not(:first-child):not(:last-child){
     padding:100px;
+}
+
+/* .customers{
+    background-color: #0061FF;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.padding-x-10 {
+    padding: 0 10px;
+}
+
+.padding-col-25 > * {
+    padding: 0 25px;
+}
+ .plan-border{
+    border: 1px solid;
+ }
+.padding-col-20{
+    padding: 0px 20px;
+}
+.margin-y-20{
+    margin: 20px 0;
+}
+.gap-15{
+    gap: 15px;
+}
+.margin-team{
+    margin-bottom: 150px;
+    margin-top: 200px;
+}
+.gap-70{
+    gap: 70px;
+}
+.height-640{
+    height: 640px;
 }
