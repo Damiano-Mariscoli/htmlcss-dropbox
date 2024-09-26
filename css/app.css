@@ -109,7 +109,7 @@ a{
 /* PLANS */
 .plans .card {
 	border: 1px solid;
-	min-height: 300px;
+	
 }
 .card-header{
     text-align: center;
@@ -181,11 +181,34 @@ li.icon{
     width: 100%;
 }
 
+/* FOOTER-PLANS */
+.card.enterprise{
+    padding: 0px;
+    gap: 0px;
+}
+.enterprise{
+    display: flex;
+    flex-basis: 80%;
+    flex-direction: row;
+}
 
-
-
-
-
+.btn-enterprise{
+    display: flex;
+    flex-basis: 30%;
+}
+.enterprise-plans{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.enterprise-btn{
+    flex-basis: 30%;
+    padding:25px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
 
 /* DEBUG */
@@ -219,4 +242,7 @@ li.icon{
 }
 .bold{
     font-weight: bold;
+}
+.width-100{
+    width: 100%;
 }
