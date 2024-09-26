@@ -107,8 +107,23 @@ a{
 }
 .card-header{
     text-align: center;
-    border-bottom: 1px solid;
+    border-top:1px solid ;
+    border-left:1px solid ;
+    border-right:1px solid ;
     padding: 5px;
+}
+.spacing{
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    gap:15px;
+}
+.feature{
+    gap: 20px;
+}
+.trial{
+    gap: 30px;
 }
 /* PLANS-HEADER */
 .container-large{
@@ -149,7 +164,22 @@ a{
     display: flex;
     flex-direction: column;
     gap: 45px;
+    padding: 30px;
+    
 }
+li.icon{
+    display: flex;
+    gap: 5px;
+}
+.btn.plans{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
 
 
 
