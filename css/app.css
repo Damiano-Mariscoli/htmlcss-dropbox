@@ -168,6 +168,9 @@ li.icon{
     text-align: center;
     width: 100%;
 }
+.height-100{
+    height: 100%;
+}
 
 /* FOOTER-PLANS */
 .card.enterprise{
@@ -306,54 +309,30 @@ li.icon{
 .height-640{
     height: 640px;
 }
-
-
-
-
-
-
-.logos-square {
-    display: flex;
-    min-height: 400px;
-    justify-content: space-between;
-    
+.margin-y-100{
+    margin-top: 100px;
+}
+.no-gutter{
+    padding: 0px;
 }
 
 
-.grid {
+.brands{
     display: flex;
     flex-wrap: wrap;
-
 }
-
-
-.square {
-    flex-basis: 50%;
-    background-color: red;
+.brands>*{
+    width: 50%;
+    aspect-ratio: 1/1;
+}
+.brand-box{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
-
-
-.square img {
-    max-width: 40%;
-    max-height: 40%;
-}
-
-
-.square-text{
-    display: flex;
-    align-items: flex-start;
-    
-    padding: 10px;
-    
-}
-
-.padding-0{
-    padding: 0px;
-}
-.row.square-text{
-    width: 70%;
+.brand-box img{
+    width: 100%;
+	height: auto;
+	max-width: 120px;
+	filter: invert(1);
 }
